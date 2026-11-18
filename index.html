@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Browse the latest comfort and everyday footwear from Manas Footwear."
+    />
+    <title>Manas Footwear | Catalog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#catalog">Skip to catalog</a>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Manas Footwear home">
+        <span class="brand-mark">M</span>
+        <span>Manas<br /><em>Footwear</em></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+        <span class="sr-only">Open menu</span>
+      </button>
+      <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+        <a href="#catalog">Catalog</a>
+        <a href="#categories">Categories</a>
+        <a href="#visit">Visit us</a>
+        <a class="nav-cta" href="https://wa.me/919468539414" target="_blank" rel="noreferrer">WhatsApp us</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Bhilwara, Rajasthan</p>
+          <h1>Every step,<br /><em>your style.</em></h1>
+          <p class="hero-text">Discover comfortable, everyday footwear chosen for real life and great value.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="mf-01.html">View featured pair</a>
+            <a class="text-link" href="#visit">Find our store <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Manas Footwear collection">
+          <div class="sun"></div>
+          <p class="hero-collection-label">MANAS<br /><em>FOOTWEAR</em></p>
+          <p class="hero-sticker"><strong>Fresh</strong><br />styles in store</p>
+        </div>
+      </section>
+
+      <section id="categories" class="categories section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Shop your way</p>
+            <h2>Find your pair</h2>
+          </div>
+          <p>From easy-going comfort to fresh everyday styles, find a pair that fits your day.</p>
+        </div>
+        <div class="category-grid">
+          <a class="category-card category-comfort" href="#catalog" data-filter="comfort">
+            <span>01</span><strong>Crocs &amp;<br />Comfort</strong><i aria-hidden="true">↗</i>
+          </a>
+          <a class="category-card category-new" href="#catalog" data-filter="new">
+            <span>02</span><strong>New<br />Shoes</strong><i aria-hidden="true">↗</i>
+          </a>
+          <a class="category-card category-everyday" href="#catalog" data-filter="everyday">
+            <span>03</span><strong>Everyday<br />Footwear</strong><i aria-hidden="true">↗</i>
+          </a>
+        </div>
+      </section>
+
+      <section id="catalog" class="catalog section">
+        <div class="catalog-top">
+          <div>
+            <p class="eyebrow">Latest collection</p>
+            <h2>Featured footwear</h2>
+          </div>
+          <div class="filters" role="group" aria-label="Filter catalog">
+            <button class="filter is-active" type="button" data-filter="all">All</button>
+            <button class="filter" type="button" data-filter="comfort">Comfort</button>
+            <button class="filter" type="button" data-filter="new">New</button>
+            <button class="filter" type="button" data-filter="everyday">Everyday</button>
+          </div>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card" data-category="comfort">
+            <div class="product-image peach">
+              <span class="tag">Best value</span>
+              <img src="https://manasfootwear.wordpress.com/wp-content/uploads/2025/01/footwear.png?w=1024" alt="Vintex Crocs" />
+            </div>
+            <div class="product-info">
+              <div><p class="product-type">Crocs &amp; Comfort</p><h3>Vintex Crocs</h3></div>
+              <strong>₹200</strong>
+            </div>
+            <p class="sizes">Available sizes: 6–9</p>
+            <a class="product-link" href="https://wa.me/919468539414?text=Hi%2C%20I%20want%20to%20check%20Vintex%20Crocs%20availability." target="_blank" rel="noreferrer">Check availability <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="product-card" data-category="new">
+            <div class="product-image mauve">
+              <img src="https://manasfootwear.wordpress.com/wp-content/uploads/2024/08/1000009445.jpg?w=768" alt="Manas Footwear collection" />
+            </div>
+            <div class="product-info">
+              <div><p class="product-type">New shoes</p><h3>Fresh collection</h3></div>
+              <strong>In store</strong>
+            </div>
+            <p class="sizes">Ask us about colours, sizes, and prices.</p>
+            <a class="product-link" href="https://wa.me/919468539414?text=Hi%2C%20I%20want%20to%20see%20the%20new%20shoe%20collection." target="_blank" rel="noreferrer">Check availability <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="product-card product-card-message" data-category="everyday">
+            <p class="eyebrow">More in store</p>
+            <h3>New pairs arrive regularly.</h3>
+            <p>Message us with the style and size you need. We’ll help you find your next pair.</p>
+            <a class="button button-secondary" href="https://wa.me/919468539414" target="_blank" rel="noreferrer">Ask on WhatsApp</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="gallery" class="collection-gallery section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Cityfoot</p>
+            <h2>Cityfoot collection</h2>
+          </div>
+          <p>Browse the latest in-store selection. Use an item number when you message us for size, colour, and price.</p>
+        </div>
+        <div class="collection-grid">
+          <article class="collection-card home-cityfoot-stack"><a class="collection-image" href="mf-01.html" aria-label="View the Cityfoot collection"><span class="stack-label">CITYFOOT</span><span class="stack-card stack-one">MF-01</span><span class="stack-card stack-two">NEW<br />COLLECTION</span><span class="stack-card stack-three">MANAS<br />FOOTWEAR</span></a><div class="collection-copy"><h3>Cityfoot collection</h3><a href="mf-01.html">View collection <span aria-hidden="true">→</span></a></div></article>
+          <article class="collection-card"><div class="collection-image"><img src="assets/PHOTO-2026-11-07-15-39-18_1.jpg" alt="Manas Footwear catalog item MF-02" loading="lazy" /><span>MF-02</span></div><div class="collection-copy"><h3>New arrival</h3><a href="https://wa.me/919468539414?text=Hi%2C%20I%20want%20details%20for%20item%20MF-02." target="_blank" rel="noreferrer">Enquire <span aria-hidden="true">→</span></a></div></article>
+          <article class="collection-card"><div class="collection-image"><img src="assets/PHOTO-2026-11-07-15-39-19.jpg" alt="Manas Footwear catalog item MF-03" loading="lazy" /><span>MF-03</span></div><div class="collection-copy"><h3>New arrival</h3><a href="https://wa.me/919468539414?text=Hi%2C%20I%20want%20details%20for%20item%20MF-03." target="_blank" rel="noreferrer">Enquire <span aria-hidden="true">→</span></a></div></article>
+          <article class="collection-card"><div class="collection-image"><img src="assets/PHOTO-2026-11-07-15-39-19_1.jpg" alt="Manas Footwear catalog item MF-04" loading="lazy" /><span>MF-04</span></div><div class="collection-copy"><h3>New arrival</h3><a href="https://wa.me/919468539414?text=Hi%2C%20I%20want%20details%20for%20item%20MF-04." target="_blank" rel="noreferrer">Enquire <span aria-hidden="true">→</span></a></div></article>
+          <article class="collection-card"><div class="collection-image"><img src="assets/PHOTO-2026-11-07-15-39-20.jpg" alt="Manas Footwear catalog item MF-05" loading="lazy" /><span>MF-05</span></div><div class="collection-copy"><h3>New arrival</h3><a href="https://wa.me/919468539414?text=Hi%2C%20I%20want%20details%20for%20item%20MF-05." target="_blank" rel="noreferrer">Enquire <span aria-hidden="true">→</span></a></div></article>
+          <article class="collection-card"><div class="collection-image"><img src="assets/PHOTO-2026-11-07-15-39-20_1.jpg" alt="Manas Footwear catalog item MF-06" loading="lazy" /><span>MF-06</span></div><div class="collection-copy"><h3>New arrival</h3><a href="https://wa.me/919468539414?text=Hi%2C%20I%20want%20details%20for%20item%20MF-06." target="_blank" rel="noreferrer">Enquire <span aria-hidden="true">→</span></a></div></article>
+          <article class="collection-card"><div class="collection-image"><img src="assets/PHOTO-2026-11-07-15-39-21.jpg" alt="Manas Footwear catalog item MF-07" loading="lazy" /><span>MF-07</span></div><div class="collection-copy"><h3>New arrival</h3><a href="https://wa.me/919468539414?text=Hi%2C%20I%20want%20details%20for%20item%20MF-07." target="_blank" rel="noreferrer">Enquire <span aria-hidden="true">→</span></a></div></article>
+          <article class="collection-card"><div class="collection-image"><img src="assets/PHOTO-2026-11-07-15-39-22.jpg" alt="Manas Footwear catalog item MF-08" loading="lazy" /><span>MF-08</span></div><div class="collection-copy"><h3>New arrival</h3><a href="https://wa.me/919468539414?text=Hi%2C%20I%20want%20details%20for%20item%20MF-08." target="_blank" rel="noreferrer">Enquire <span aria-hidden="true">→</span></a></div></article>
+          <article class="collection-card"><div class="collection-image"><img src="assets/PHOTO-2026-11-07-15-39-22_1.jpg" alt="Manas Footwear catalog item MF-09" loading="lazy" /><span>MF-09</span></div><div class="collection-copy"><h3>New arrival</h3><a href="https://wa.me/919468539414?text=Hi%2C%20I%20want%20details%20for%20item%20MF-09." target="_blank" rel="noreferrer">Enquire <span aria-hidden="true">→</span></a></div></article>
+          <article class="collection-card"><div class="collection-image"><img src="assets/PHOTO-2026-11-07-15-39-23.jpg" alt="Manas Footwear catalog item MF-10" loading="lazy" /><span>MF-10</span></div><div class="collection-copy"><h3>New arrival</h3><a href="https://wa.me/919468539414?text=Hi%2C%20I%20want%20details%20for%20item%20MF-10." target="_blank" rel="noreferrer">Enquire <span aria-hidden="true">→</span></a></div></article>
+          <article class="collection-card"><div class="collection-image"><img src="assets/PHOTO-2026-11-07-15-39-24.jpg" alt="Manas Footwear catalog item MF-11" loading="lazy" /><span>MF-11</span></div><div class="collection-copy"><h3>New arrival</h3><a href="https://wa.me/919468539414?text=Hi%2C%20I%20want%20details%20for%20item%20MF-11." target="_blank" rel="noreferrer">Enquire <span aria-hidden="true">→</span></a></div></article>
+          <article class="collection-card"><div class="collection-image"><img src="assets/PHOTO-2026-11-07-15-39-24_1.jpg" alt="Manas Footwear catalog item MF-12" loading="lazy" /><span>MF-12</span></div><div class="collection-copy"><h3>New arrival</h3><a href="https://wa.me/919468539414?text=Hi%2C%20I%20want%20details%20for%20item%20MF-12." target="_blank" rel="noreferrer">Enquire <span aria-hidden="true">→</span></a></div></article>
+          <article class="collection-card"><div class="collection-image"><img src="assets/PHOTO-2026-11-07-15-39-25.jpg" alt="Manas Footwear catalog item MF-13" loading="lazy" /><span>MF-13</span></div><div class="collection-copy"><h3>New arrival</h3><a href="https://wa.me/919468539414?text=Hi%2C%20I%20want%20details%20for%20item%20MF-13." target="_blank" rel="noreferrer">Enquire <span aria-hidden="true">→</span></a></div></article>
+        </div>
+      </section>
+
+      <section id="visit" class="visit section">
+        <div>
+          <p class="eyebrow">Visit Manas Footwear</p>
+          <h2>Try the right fit<br /><em>in person.</em></h2>
+        </div>
+        <div class="visit-details">
+          <p>Visit our store in Bhilwara for the newest styles, help with sizing, and everyday footwear at great value.</p>
+          <a class="button button-primary" href="https://maps.app.goo.gl/V1u6V4V3NbjU36aK7" target="_blank" rel="noreferrer">Get directions</a>
+          <p class="location">25°20'52.1&quot;N 74°38'13.5&quot;E</p>
+          <p class="contact-line"><a href="tel:+919468539414">+91 94685 39414</a><a href="mailto:Naveennebhwani123@gmail.com">Naveennebhwani123@gmail.com</a></p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <a class="brand footer-brand" href="#top"><span class="brand-mark">M</span><span>Manas<br /><em>Footwear</em></span></a>
+      <p>Comfort, style, and value—one step at a time.</p>
+      <a href="https://instagram.com/manasfootwear" target="_blank" rel="noreferrer">Instagram ↗</a>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
